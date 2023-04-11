@@ -1,57 +1,66 @@
-.search.active {
-    background: rgba(0, 0, 0, 0.4);
-    width: 500px;
+.baner {
+    display:flex;
+    background-color:rgb(47, 47, 117);
+    height:80px;
+    align-items:center;
+    justify-content:center;
+    color:white;
 }
-
-.search {
-    margin-top: 25px;
-    margin-right: 25px;
-    background-color: #448aff;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    transition: all 500ms ease;
+/* banner css */
+.btnlist{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
-
-.search>i {
-    line-height: 50px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+.citybtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:75%;
 }
-
-.container {
-    justify-content: center;
-    position: relative;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    padding: 330px;
- 
-    
-} 
-
-h1 { align-items: center;
+#main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    background-color:gray;
 }
- 
-div.container { 
-    background-color: #448aff; 
+#left{
+    width:10%;
     
 }
 
+#right{
+    margin-left:35px;
+    width:90%;
+}
+
+.main-card{
+    margin-top:15px;
+    padding: 5px 0 10px 8px;
+    border:1px solid;
+}
+.days{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.day-card{
+    color:white;
+    background-color:rgb(35, 25, 72);
+    width:18%;
+}
 
 
-
-
-
-#side { height: 100%; width: 20%;
-    align-items: start;
+#citydate{
+    margin-top:5px;
 
 }
 
-body { 
-background-color: cornflowerblue;
-align-items: center;
-justify-content: center;
+.crack{
+    gap:10px;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:10px;
+    border-bottom: 1px solid;
+    margin-bottom:10px;
 }
